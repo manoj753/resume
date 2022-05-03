@@ -1,0 +1,25 @@
+.container {
+  height: 93vh;
+  width: 99vw;
+
+  @apply relative overflow-hidden flex items-start justify-center;
+}
+
+.left {
+  width: calc(100vw / 4);
+  box-shadow: var(--left-shadow);
+
+  @apply bg-primary-50 absolute top-0 bottom-0 left-0 z-10;
+}
+
+.center {
+  @apply relative z-0 h-screen overflow-auto bg-primary-900;
+  width: 50vw;
+}
+
+.right {
+  width: calc(100vw / 4);
+  box-shadow: var(--right-shadow);
+
+  @apply bg-primary-50 absolute top-0 bottom-0 right-0 z-10;
+}

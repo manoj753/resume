@@ -1,0 +1,128 @@
+.faded_black {
+  color: #999;
+}
+.light_blue_bg {
+  background-color: #33a8f2;
+  border-radius: 3pt;
+  transition: 0.5s;
+}
+.light_blue_bg:hover {
+  background-color: #0071b9 !important;
+  color: #fff !important;
+}
+.btn1 {
+  width: 110px;
+}
+/*Header CSS Start*/
+.header {
+  border-bottom: 1px solid #4ca8f2;
+  padding-bottom: 1.7em;
+}
+.header_menu_list {
+  list-style: none;
+}
+.head_nav li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  color: black;
+  transition: 0.5s;
+}
+
+.head_nav_active {
+  /*position: absolute;
+    content:"";
+    width: 100%;*/
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #4ca8f2;
+  transition: transform 0.5s;
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.head_nav li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #4ca8f2;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+.head_nav li a:hover {
+  color: #4ca8f2;
+}
+
+.head_nav li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.active_link {
+  border-bottom: 2px solid #4ca8f2;
+}
+
+#user_control {
+  cursor: pointer;
+}
+
+#user_control_box {
+  position: absolute;
+  width: 200px;
+  right: 4em;
+  top: 4.5em;
+  display: none;
+  cursor: pointer;
+}
+.display_section {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .head_right {
+    padding: 0 !important;
+    margin-right: 1em;
+  }
+  .head_right > img {
+    width: 15% !important;
+  }
+  .head_center .head_mobile {
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .head_nav {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 325px) {
+  .head_center .head_mobile {
+    position: absolute;
+    top: 14px;
+    cursor: pointer;
+    z-index: 3;
+  }
+}
+@media only screen and (min-width: 425px) and (max-width: 426px) {
+  .head_center .head_mobile {
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+    z-index: 3;
+  }
+}
+/*Header CSS End*/
+/*Mobile Hamburger Menu Start*/
+.head_nav li {
+  text-align: left !important;
+}
+/*Mobile Hamburger Menu End*/

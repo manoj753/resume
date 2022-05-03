@@ -1,0 +1,74 @@
+.modal {
+  padding: 0 !important;
+}
+
+.modal .modal-dialog-aside{
+    width: 440px;
+    max-width:80%; height: 100%; margin:0;
+    transform: translate(0); transition: transform .2s;
+  }
+  
+  
+  .modal .modal-dialog-aside .modal-content{  height: inherit; border:0; border-radius: 0;}
+  .modal .modal-dialog-aside .modal-content .modal-body{ overflow-y: auto }
+  .modal.fixed-left .modal-dialog-aside{ margin-left:auto;  transform: translateX(100%); }
+  .modal.fixed-right .modal-dialog-aside{ margin-right:auto; transform: translateX(-100%); }
+  
+  .modal.show .modal-dialog-aside{ transform: translateX(0);  }
+  .modal-body h3{
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .Template button{
+    background-color: #f1f0f0;
+    padding: 10px 20px;
+    color: #000000;
+    margin: 10px auto;
+    border: none;
+  }
+  .Template{
+  
+    background:#fafafa;
+  }
+  .btn-dark1{
+    background: #000000;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+  }
+  .color{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin: 5px;
+  }
+  .color-palette{
+    display:inline-flex;
+  }
+  .color-input input{
+    
+padding: 10px;
+background: #ebebeb;
+border: none;
+    
+  }
+  .color-input{
+  margin-top:10px;
+  }
+  .upld-btn{
+    font-size: 11px;
+    padding: 8px 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: .25rem;
+    font-weight: 600;
+    background-color: black;
+    border-width: 1px;
+    border-color: var(--color-primary-900);
+    color: white;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,8 @@
+.container {
+  width: 75px;
+  z-index: 20;
+  box-shadow: var(--left-shadow);
+  height: 93vh;
+
+  @apply px-4 py-6 flex flex-col items-center;
+}

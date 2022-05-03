@@ -1,0 +1,53 @@
+@import url("http://fonts.cdnfonts.com/css/amstrong");
+@import url("http://fonts.cdnfonts.com/css/rabbid-highway-sign-vii");
+@import url("http://fonts.cdnfonts.com/css/buttle");
+
+.editor {
+  border: 2px solid #d1d1d1;
+  height: -webkit-fill-available;
+}
+
+.editor {
+  height: 300px;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.editor_parent {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #eee;
+  border: 1px solid #888;
+}
+
+.edit {
+  padding: 0px 0px;
+}
+
+.card-panel {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.sample-toolbar {
+  border: solid 1px #ddd;
+  background: #f4f4f4;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.sample-toolbar > span {
+  cursor: pointer;
+}
+
+.sample-toolbar > span:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768.89px) {
+  .card-panel {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+}

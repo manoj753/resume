@@ -1,0 +1,287 @@
+{
+  "profile" : {
+    "address" : {
+      "city" : "Destiny, Arizona",
+      "line1" : "1234 Success Avenue",
+      "line2" : "",
+      "pincode" : "98765",
+      "state": "Arizona",
+      "country": "USA"
+    },
+    "email" : "",
+    "firstName" : "John",
+    "heading" : "Profile",
+    "lastName" : "Dough",
+    "phone" : "1234567890",
+    "photograph" : "https://firebasestorage.googleapis.com/v0/b/veriresume-11902.appspot.com/o/users%2Fhi1XWMit3ePQYQ2ND61zGGOcoLf2%2Fphotographs%2Fh1xlkg?alt=media&token=b225ef4f-3992-4895-a532-3704575647aa",
+    "subtitle" : "",
+    "website" : ""
+  },
+  "social" : {
+    "heading" : "Social Network",
+    "visible" : true
+  },
+  "objective" : {
+    "body" : "Highly Motivated Senior Global Executive with extensive experience in sales/business development, account management, marketing, technical service, and corporate consulting.  Excellent track record of managing multiple sales forces, direct selling key accounts, and building winning teams in the B2B segment of the Food & Baking Industry, both foreign and domestic.  Experienced in international business, import/export, business development, technical service, marketing, & acquisition integration. Solid background in baking, food ingredients, food safety, food service, & menu management. Strong presentation and verbal/written communication. Outstanding ability to cultivate a team environment and to motivate others. \nI am confident that my experience, track record of success, ambition, and leadership would enable me to make an immediate impact in building the long-term success of another important organization.\n\n",
+    "heading" : "SUMMARY",
+    "visible" : true
+  },
+  "work" : {
+    "heading" : "EMPLOYMENT",
+    "items" : [ {
+      "company" : "Caravan Ingredients/CSM Latin America",
+      "endDate" : "2012-12-10",
+      "id" : "4e5e11b0-bc01-4608-bd3f-89a1d201cd52",
+      "position" : "Director of Sales",
+      "startDate" : "2010-04-10",
+      "summary" : "Lenexa, KS & Fort Lauderdale, Florida\n* Managed Latin American sales division, comprised of two CSM corporations: \n        CSM Mexicana and CSM Bakery Supplies Latin America.\n* CSM Mexicana: responsible for all sales of CSM products within Mexico and \n        Central America. CSM Mexicana had three business units, Distribution & \n        Industrial sales which focused on large manufacturers of food and bakery \n        products. Developed a Sales and Technical Team that focused on added value \n        versus commodity sales, Supermarket Sales which focused on in-store bakeries \n        and B2B in which the sales force developed relationships between the \n        supermarkets or club stores and third party manufacturers, and Food Service in \n        which I developed a team of key account managers to focus on using existing \n        relationships in both the United States and Europe to bring added value and \n        partnership to the emerging Latin American Division.\n* CSM Bakery Supplies Latin America: responsible for sales of CSM products in the \n        Caribbean and South America. Developed a team of sales managers and \n        territory sales reps to focus on mature business in the Caribbean and Colombia, \n        & worked with CSM to create strategy for future acquisitions in other parts of \n        South America such as Peru, Argentina, Chile, and Brazil. \n* Assisted logistics and supply chain in the development of warehousing in both \n        Monterrey, Mexico and Atlanta, Georgia to consolidated products from multiple \n        facilities to compete with  local competition in Latin America.\n* Created and implemented various sales training programs based around \n        specific business needs.\n* Realigned sales territories to optimize expenses and maximize returns.\n* Developed and implemented new product roll-out programs.\n* Created sales forecasts as well as annual budgets.",
+      "website" : "https://www.csmbakerysolutions.com/en.html"
+    }, {
+      "company" : "Caravan Ingredients (Division of CSM)",
+      "endDate" : "2010-03-01",
+      "id" : "0d5fb41c-1a71-404c-97e2-9b59f986941c",
+      "position" : "Director of Business Development",
+      "startDate" : "2006-06-01",
+      "summary" : "Lenexa, KS\n* Managed largest business unit in Caravan Ingredients with over $170 Million in \n        annual sales.\n* Exceeded budgets by 15% or more for three years between 2006 and 2008.\n* Fine tuned existing business based on multi-level sales approach.\n* Managed business unit with National Sales Manager, 4 Regional Managers, 22 \n        sales territories, and 12 technicians.  \n* Developed management group now in place within that business segment.\n* Optimized product line while growing market share in a limited growth \n        environment. \n* Increased market share with record profits year over year.   ",
+      "website" : "https://www.csmbakerysolutions.com/en.html"
+    }, {
+      "company" : "Caravan Products (CSM)",
+      "endDate" : "2006-05-01",
+      "id" : "606490ba-1e0f-4e11-9c39-822cab39eabb",
+      "position" : "Vice President of Sales - Americas",
+      "startDate" : "1999-07-01",
+      "summary" : "Totowa, NJ\n* Managed entire sales force of 4 Regional Managers, 22 sales territories, and 12 \n        technicians.\n* Responsible for managing $160 Million+ in yearly sales.\n* Solid track record of double-digit yearly growth.\n* Responsible for developing the Latin American market for Caravan Products \n        and HC Brill.\n* Created a Mexico corporation and opened Carpro's first office in Latin America \n* Hired and trained sales and technical teams. \n* Established representation in Puerto Rico, Colombia, Dominican Republic, and \n        Mexico.\n* Established new sales of over $20 million+ in less than 3 years of development.",
+      "website" : ""
+    }, {
+      "company" : "Caravan Products",
+      "endDate" : "1999-06-01",
+      "id" : "28aafb2c-f106-4a2c-9c97-7bf4c5e74fae",
+      "position" : "National Products Manager",
+      "startDate" : "1995-11-01",
+      "summary" : "West Palm Beach, FL\n* Managed a national team of specialists focused on bagels, pizza, pretzels, and \n        flat breads.\n* Grew sales of bagel ingredients from $2 Million in 1995 to $25 Million in 1999.\n* Featured in multiple food magazines and trade shows as the foremost authority \n        in the bagel industry.",
+      "website" : ""
+    }, {
+      "company" : "Caravan Products",
+      "endDate" : "1995-10-01",
+      "id" : "bb06ad72-747f-40f9-ab06-f52e4ca12134",
+      "position" : "Territory Sales Manager - New York Metro",
+      "startDate" : "1992-01-03",
+      "summary" : "Totowa, NJ\n* Responsible for a sales territory that encompassed New York City and \n        Westchester County.\n* Managed sales territory with over $10 Million in yearly sales.",
+      "website" : ""
+    } ],
+    "visible" : true
+  },
+  "education" : {
+    "heading" : "EDUCATION",
+    "items" : [ {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Business Administration",
+      "gpa" : "",
+      "id" : "62332515-51be-4bc6-b15d-d5e7503c828f",
+      "institution" : "Ottawa University, Ottawa, Kansas",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Executive Corporate Management",
+      "gpa" : "",
+      "id" : "e62739fe-7f91-405b-a2a7-2fb38ae4a761",
+      "institution" : "Tias Business School, Utrecht, Netherlands",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Pre-legal studies",
+      "gpa" : "",
+      "id" : "dc03c619-b0af-475e-9f0b-5a3882015066",
+      "institution" : "Brevard Community College, Cocoa, Florida",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Bakery Science & Technology",
+      "gpa" : "",
+      "id" : "e016300c-24ef-4ff0-aa8e-21b90843a5a2",
+      "institution" : "American Institute of Baking, Manhattan, KS",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Leadership Development",
+      "gpa" : "",
+      "id" : "d8845e35-5390-4528-acfc-f02b01f3e607",
+      "institution" : "CSM Leadership Development Program - Purmerand, Netherlands",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "LAMP-Large Account Management Program and Strategic Selling",
+      "gpa" : "",
+      "id" : "a9fa4360-7fa6-422e-9afe-b13594314333",
+      "institution" : "Miller-Heimann ",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Bulletproof Manager",
+      "gpa" : "",
+      "id" : "a6325fd2-7dc1-4149-b805-6d3080d4d5ed",
+      "institution" : "Crestcom Business Training",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Sales Manager and Personality Training",
+      "gpa" : "",
+      "id" : "e2859767-0719-47b7-ac7a-88700ad5680f",
+      "institution" : "Krauthammer",
+      "startDate" : "",
+      "summary" : ""
+    }, {
+      "degree" : "",
+      "endDate" : "",
+      "field" : "Project Management",
+      "gpa" : "",
+      "id" : "b7d5f900-fe91-4598-bbe9-f1d94c994066",
+      "institution" : "American Management Association",
+      "startDate" : "",
+      "summary" : ""
+    } ],
+    "visible" : true
+  },
+  "projects" : {
+    "heading" : "INDUSTRY ACTIVITIES & AFFILIATIONS",
+    "items" : [ {
+      "date" : "",
+      "id" : "a298ef97-fb73-4674-957a-751755fdeb20",
+      "link" : "https://www.restaurant.org/home",
+      "summary" : "",
+      "title" : "NRA - National Restaurant Association"
+    }, {
+      "date" : "",
+      "id" : "ddb5bc6d-35d8-4ae1-9b5c-4c12379ff8a4",
+      "link" : "https://asbe.org/",
+      "summary" : "",
+      "title" : "ASB - American Society of Bakers, 2010 Chairman"
+    }, {
+      "date" : "",
+      "id" : "7578e6e2-e360-4841-b839-e08db87caf1e",
+      "link" : "https://www.ift.org/",
+      "summary" : "",
+      "title" : "IFT-Associate Member"
+    }, {
+      "date" : "",
+      "id" : "422bb28c-e319-4fb4-83ab-68013a4c7fcb",
+      "link" : "https://www.ibabaker.com/",
+      "summary" : "",
+      "title" : "IBA - Independent Bakers Association"
+    }, {
+      "date" : "",
+      "id" : "1e2d14a5-ceeb-41f6-9518-a045002e4378",
+      "link" : "http://www.thenafd.com/",
+      "summary" : "",
+      "title" : "NAFD – North American Flour Distributors"
+    }, {
+      "date" : "",
+      "id" : "1a3291f8-60f6-41d1-82dc-510316f4f69a",
+      "link" : "https://americanbakers.org/",
+      "summary" : "",
+      "title" : "ABA – American Bakers Association\t"
+    }, {
+      "date" : "",
+      "id" : "77fcc43d-e01e-49c4-83d3-cc7e1e106aeb",
+      "link" : "https://www.iddba.org/",
+      "summary" : "",
+      "title" : "IDDBA – International Dairy, Deli, Bakery, Association"
+    }, {
+      "date" : "",
+      "id" : "08481ee7-e8ab-41d6-8a13-ffd49fddffee",
+      "link" : "http://www.retailbakersofamerica.org/",
+      "summary" : "",
+      "title" : "RBA – Retail Bakers Association"
+    } ],
+    "visible" : true
+  },
+  "awards" : {
+    "heading" : "Awards",
+    "visible" : true
+  },
+  "certifications" : {
+    "heading" : "Certifications",
+    "visible" : true
+  },
+  "skills" : {
+    "heading" : "Skills",
+    "visible" : true
+  },
+  "hobbies" : {
+    "heading" : "Hobbies",
+    "items" : [ {
+      "id" : "5aee4c41-e890-4b2a-9fe6-832f745ed1f2",
+      "name" : "Global Travel"
+    }, {
+      "id" : "dfb22b78-5372-45d7-85d4-59cb2e6ace4a",
+      "name" : "Sports"
+    }, {
+      "id" : "60ba8b84-324e-4ad3-b74a-219910b4d45a",
+      "name" : "Cooking"
+    }, {
+      "id" : "cb7649e2-8760-4aab-9d51-ef6d54a2a33f",
+      "name" : "Boating"
+    } ],
+    "visible" : true
+  },
+  "languages" : {
+    "heading" : "Languages",
+    "items" : [ {
+      "fluency" : "Native/Fluent",
+      "id" : "9b2240e3-f9ae-485c-89d7-f702ffc8b7ae",
+      "name" : "English"
+    }, {
+      "fluency" : "Reading-80% / Writing & Speaking - 50%",
+      "id" : "d3bc2de9-3906-448a-8f04-7df00f03d2cc",
+      "name" : "Spanish"
+    } ],
+    "visible" : true
+  },
+  "metadata" : {
+    "colors" : {
+      "background" : "#FFFFFF",
+      "primary" : "#3F51B5",
+      "text" : "#444444"
+    },
+    "font" : "Montserrat",
+    "fontSize": 8,
+    "language" : "en",
+    "layout" : {
+      "castform" : [ [ "awards", "certifications", "languages", "hobbies" ], [ "objective", "work", "education", "skills", "projects", "references" ] ],
+      "celebi" : [ [ "awards", "certifications", "languages", "hobbies" ], [ "objective", "work", "education", "skills", "projects", "references" ] ],
+      "gengar" : [ [ "objective", "skills" ], [ "awards", "certifications", "languages", "references", "hobbies", "education", "projects" ], [ "work" ] ],
+      "glalie" : [ [ "awards", "certifications", "hobbies", "education", "skills", "languages" ], [ "objective", "work", "projects", "references" ] ],
+      "onyx" : [ [ "objective", "work", "education", "projects" ], [ "hobbies", "languages", "awards", "certifications" ], [ "skills", "references" ] ],
+      "pikachu" : [ [ "skills", "languages", "hobbies", "awards", "certifications" ], [ "work", "education", "projects", "references" ] ]
+    },
+    "template" : "onyx"
+  },
+  "references" : {
+    "heading" : "References",
+    "items" : [ {
+      "email" : "",
+      "id" : "5cb85e28-d477-44e0-a7dd-02106cc5b38d",
+      "name" : "Will provide references on request",
+      "phone" : "",
+      "position" : "Personal and Professional",
+      "summary" : ""
+    } ],
+    "visible" : true
+  },
+  "public": true
+}

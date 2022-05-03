@@ -1,0 +1,98 @@
+.header {
+    border-bottom: 1px solid #4ca8f2;
+    padding-bottom: 1.7em;
+}
+
+.header_menu_list {
+    list-style: none;
+}
+
+.display_section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.text_content {
+    width: 50%;
+}
+
+.text_content>p {
+    font-size: 12px;
+}
+
+.resumes_section {
+    margin-top: 4em;
+}
+
+.resumes_section_col {
+    padding: 0 !important;
+}
+
+.head_nav li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Lato";
+    color: black;
+    transition: 0.5s;
+}
+
+.head_nav_active {
+    /*position: absolute;
+    content:"";
+    width: 100%;*/
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #4ca8f2;
+    transition: transform 0.5s;
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+.head_nav li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #4ca8f2;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.head_nav li a:hover {
+    color: #4ca8f2;
+}
+
+.head_nav li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.active_link{
+    border-bottom: 3px solid #4ca8f2;
+}
+.resumes_section_col>div {
+    margin-top:30px;
+}
+.resumes_section_col>div>label{
+    font-size: 12px;
+}
+.controls>label>a>span{
+    color:black;
+    margin-left:10px;
+}
+#user_control{
+    cursor:pointer;
+}
+#user_control_box{
+    position: absolute;
+    width:200px;
+    right:4em;
+    top:4.5em;
+    display: none;
+    cursor:pointer;
+}

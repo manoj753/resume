@@ -1,0 +1,11 @@
+@media screen {
+  .container {
+    width: 210mm;
+    min-height: 297mm;
+    overflow: auto;
+    box-shadow: var(--shadow);
+
+    /* @apply my-16 ml-4 bg-white rounded; */
+    @apply my-8 bg-white rounded;
+  }
+}

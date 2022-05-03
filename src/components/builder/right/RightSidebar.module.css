@@ -1,0 +1,7 @@
+.container {
+  z-index: 10;
+  height: 94vh;
+
+  @apply w-full overflow-scroll p-8;
+  @apply grid gap-8;
+}

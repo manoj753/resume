@@ -1,0 +1,84 @@
+.skills_parent {
+  border: 1px solid #33a8f2;
+  display: flex;
+}
+.skill_input {
+  width: 80%;
+  border: none;
+}
+.add_skill {
+  width: 20%;
+  color: #fff;
+}
+.skill_input:focus {
+  border: none;
+}
+.skill_set {
+  display: flex;
+}
+.skill_set > span {
+  /* margin-right: 1rem; */
+  background-color: #316fb4;
+  margin: 4px;
+  line-height: 12px;
+  font-size: 12px;
+}
+.skill_save_btn {
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+header.left__section {
+  padding-top: 100px;
+}
+
+header.left__section p {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+i.fas.fa-pen {
+  font-size: 13px;
+  color: #666;
+  margin-left: 25px;
+}
+
+.skill_save_btn {
+  color: #fff;
+}
+
+@media (max-width: 425px) {
+  header.left__section {
+    padding-top: 35px;
+  }
+
+  nav.navbar.navbar-expand-md {
+    padding: 20px 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .border-right {
+    border-right: none !important;
+  }
+  .navbar-toggler {
+    padding: 0.25rem 0rem 0.25rem 0.75rem;
+  }
+  .navbar-dark .navbar-toggler {
+    border: none !important;
+    outline: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 98%;
+    max-width: 98%;
+  }
+
+  .left__section.skill__header {
+    padding-top: 35px;
+  }
+}

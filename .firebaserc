@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "verifiedresume"
+  },
+  "targets": {
+    "verifiedresume": {
+      "hosting": {
+        "verifiedresume": [
+          "public"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,448 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li.card-list {
+  font-size: 1.3rem;
+  color: #000 !important;
+}
+
+/* Navbar part */
+.head__custom-nav .navbar-brand img {
+  width: 325px;
+  /* height: 18px; */
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.head__custom-nav {
+  z-index: 999;
+  /* margin: 0 60px;*/
+}
+
+.head__custom-nav .navbar-brand span {
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.head__custom-nav button {
+  padding: 0;
+}
+
+.head__custom-nav button span img {
+  width: 45px;
+}
+
+ul.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+}
+
+li.nav-item {
+  margin-right: 20px;
+}
+
+/* .signin__button {
+    margin-left: auto;
+  } */
+
+header.head {
+  border-bottom: 1px solid #33a8f2;
+}
+
+span img {
+  width: 30px !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.head__custom-nav {
+  padding: 20px 0px;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1);
+  border: none !important;
+  outline: none !important;
+}
+
+a.nav-link.active {
+  color: #33a8f2 !important;
+}
+
+a.sign_btn {
+  padding: 9px 30px;
+  background: #33a8f2;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+a.sign_btn:hover {
+  text-decoration: none;
+  background: #0071b9;
+}
+
+/* Navbar part end */
+
+/* Banner part */
+.banner {
+  background: url(/icons/pricing/banner-bg-min.png);
+  background-position: right center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  min-height: 450px;
+}
+
+img.banner__priceImg {
+  position: absolute;
+  top: 6px;
+  right: 110px;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0071b9;
+  opacity: 0;
+  z-index: 1;
+}
+
+.hero__text {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: absolute;
+  z-index: 2;
+}
+
+.hero__text h2 {
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.hero__text p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+}
+/* Banner part end */
+
+/* price card section */
+
+.price__heading h6 {
+  color: #888;
+  font-size: 16px;
+}
+
+.price__heading h5 {
+  font-size: 30px;
+}
+
+p.yearly__cardsPlan {
+  margin-bottom: 20px;
+  color: #1f3b6d;
+  font-size: 20px;
+}
+
+small {
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  background: #f5f8ff;
+}
+
+.price__tag {
+  background: #f5f8ff;
+}
+
+.price__heading {
+  margin-top: 50px;
+}
+
+.card-head img {
+  width: 100px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.head1 {
+  background: #33a8f2 !important;
+}
+
+.head2 {
+  background: #006cbc !important;
+}
+
+.head3 {
+  background: #1f3b6d !important;
+}
+
+.rate1 h3 {
+  color: #3ca5f6;
+}
+.rate2 h3 {
+  color: #006cbc;
+}
+.rate3 h3 {
+  color: #1f3b6d;
+}
+
+.card-head h3 {
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+ul.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  list-style: none;
+  text-align: left;
+}
+.card-content ul {
+  margin-bottom: 0px;
+}
+
+.card-head {
+  min-height: 200px;
+  background: #2270b4;
+}
+
+i.fa.fa-check {
+  color: #0afa0a;
+  margin-left: 6px;
+}
+
+i.fa.fa-times {
+  color: red;
+}
+
+.small,
+small {
+  font-size: 94%;
+  font-weight: 400;
+}
+
+.month {
+  color: #888;
+}
+
+.year {
+  color: #888;
+}
+
+.checke {
+  position: relative;
+  width: 50px;
+}
+
+input.checke {
+  margin: 0px 10px;
+}
+
+.checke:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  background: #00a1ff;
+  border-radius: 25px;
+}
+
+.checke:checked:before {
+  background: #00a1ff;
+}
+
+.checke:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  background: #006cbc;
+  border-radius: 50px;
+  transition: 0.25s;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+}
+
+.checke:checked:after {
+  left: 35px;
+  border: 2px solid #fff;
+}
+
+.checke:checked ~ .year,
+.checke:checked ~ .month {
+  color: #00a1ff;
+}
+
+.checke:checked ~ .content.monthly__cards {
+  display: none;
+}
+
+.checke:checked ~ .content.yearly__cards {
+  display: block;
+  margin-top: 40px;
+}
+
+.container .content {
+  display: none;
+}
+
+.container .content.monthly__cards {
+  display: block;
+  margin-top: 40px;
+}
+
+.price__tag {
+  padding: 25px 0px;
+}
+
+.price__button1 {
+  background: #3ca5f6;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+.price__button2 {
+  background: #006cbc;
+  padding: 20px 0px;
+}
+.price__button3 {
+  background: #1f3b6d;
+  padding: 20px 0px;
+}
+
+.btnn {
+  cursor: pointer;
+}
+
+.btnn a {
+  color: #fff;
+  text-decoration: none;
+}
+/* price card section end */
+
+/* Footer section */
+.form__section.blurftr-bg {
+  margin-top: 0px;
+}
+/* Footer section end */
+
+@media (max-width: 320px) {
+  .banner {
+    min-height: 340px !important;
+  }
+
+  img.banner__priceImg {
+    position: absolute;
+    top: 11px;
+    right: 4px;
+  }
+
+  .hero__text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+
+i.fa.fa-check {
+  font-size: 25px;
+}
+
+i.fa.fa-times {
+  font-size: 25px;
+}
+
+@media (max-width: 425px) {
+  .banner {
+    min-height: 425px;
+  }
+
+  img.banner__priceImg {
+    position: absolute;
+    top: 6px;
+    right: 3px;
+  }
+
+  .hero__text {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: absolute;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__text {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .hero__text h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .hero__text p {
+    font-size: 13px;
+    color: #fff;
+    font-weight: 100;
+  }
+
+  .price__heading h6 {
+    color: #888;
+    font-size: 15px;
+  }
+
+  .price__heading h5 {
+    font-size: 26px;
+  }
+
+  .month {
+    font-size: 14px;
+  }
+  .year {
+    font-size: 14px;
+  }
+
+  li.card-list {
+    font-size: 13px;
+  }
+
+  .small,
+  small {
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner::before {
+    opacity: 0.7;
+  }
+
+  ul.navbar-nav {
+    margin-bottom: 20px;
+  }
+
+  .signin__but {
+    margin-left: 20px;
+  }
+}
